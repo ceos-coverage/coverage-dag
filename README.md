@@ -70,6 +70,18 @@ Navigate to [`http://localhost:3000`](http://localhost:3000) in a browser. To st
 
 See [Developing](doc/developing.md) for more usage details.
 
+## Coverage Updates
+
+There are two features as part of Coverage Scientific use cases. 
+
+First feature is to select an area of interest using Draw Rectangle button on the top right corner as shown below and be able to compute the statistics like mean, median, standard deviation, maximum and minimum values for the underlying imagery data.
+
+![DrawRect Screenshot](/web/images/worldview-drawrect.png)
+
+Second feautre is to automatically compute statistics for the four Nino Zones. The button next to draw rectangle in the top right corner is used to list the four nino zones. On selecting any Nino Zone the corresponding area is highlighted on the map and the statistics are automatically computed and displayed on the map.
+
+![NinoZones Screenshot](/web/images/worldview-ninozones.png)
+
 ## Updates
 
 To update Worldview, pull down any branch or tag from GitHub. From the `main` branch (default), to update to the latest stable version of Worldview, run `git pull`.
