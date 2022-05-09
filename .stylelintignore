@@ -1,0 +1,12 @@
+# /node_modules/* and /bower_components/* ignored by default
+
+build/*
+config/*
+dist/*
+etc/*
+lib/*
+options/*
+reports/*
+test/*
+web/*
+!web/css

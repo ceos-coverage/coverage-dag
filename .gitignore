@@ -1,0 +1,35 @@
+/build
+/web/build
+/web/brand
+/web/config
+/web/stories
+/dist
+/node_modules
+/web/ext/node_modules/*
+/tasks/link-check/results
+python
+.python/
+.node-virtualenv/
+.ropeproject/
+*.pyc
+.project
+.settings
+.pydevproject
+.DS_Store
+bitly.json
+tools
+*~
+*.swp
+options
+\#*
+.vagrant
+*.log
+# Nightwatch stuff
+e2e/reports
+*.jar
+# Config
+/config/*
+!/config/default
+gc
+# Jest
+/coverage
