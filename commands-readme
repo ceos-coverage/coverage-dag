@@ -1,0 +1,16 @@
+Backend:
+
+Use the following command to install Flask:
+
+Python3 -m pip install Flask
+
+Change directory to app.py and use the following command to run flask application.
+
+flask run
+
+Frontend:
+
+Frontend is launched using worldview. Use following commands to build and run worldview with new features.
+
+npm run build
+npm start
