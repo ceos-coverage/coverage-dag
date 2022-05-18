@@ -14,3 +14,33 @@ Frontend is launched using worldview. Use following commands to build and run wo
 
 npm run build
 npm start
+
+terraform:
+
+$ terraform
+Usage: terraform [-version] [-help] <command> [args]
+
+Deploying a single server:
+
+provider "aws" {
+  region = "us-east-2"
+}
+
+Deploy to an EC2 Instance:
+
+resource "aws_instance" "example" {
+  ami           = "ami-0c55b159cbfafe1f0"
+  instance_type = "t2.micro"
+}
+
+Running app 
+
+$ terraform init
+
+Initializing the backend...
+
+Initializing provider plugins...
+- Checking for available provider plugins...
+- Downloading plugin for provider "aws" (...)* provider.aws: version = "~> 2.10"
+
+Terraform has been successfully initialized!
